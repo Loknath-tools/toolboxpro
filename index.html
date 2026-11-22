@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToolBox Pro — 11 All-in-One Online Tools</title>
-    <meta name="description" content="11 fast, private, browser-based online tools for PDF, Word, Images, QR Codes, EMI, Age, YouTube Thumbnails, Passwords, and Unit Conversion.">
+    <title>ToolBox Pro — 15 All-in-One Online PDF, Image &amp; Daily Tools</title>
+    <meta name="description" content="15 fast, private, browser-based online tools: Compress PDF, Edit PDF, Repair PDF, PDF Converter, PDF Merge & Split, Image Compressor, QR Generator, EMI, Age, and more.">
 
     <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +39,7 @@
         .animate-fade-in { animation: fadeIn 0.2s ease-out forwards; }
         input[type="range"] { accent-color: #4f46e5; }
         .dropzone-active { border-color: #4f46e5 !important; background-color: rgba(79, 70, 229, 0.08) !important; }
-        /* Automatically hide all 3 Ad Slots for active Pro users */
+        /* Automatically hide all 3 Adsterra Ad Slots for active Pro users */
         body.pro-active .ad-slot-container { display: none !important; }
     </style>
 </head>
@@ -49,7 +49,7 @@
     <header class="sticky top-0 z-40 w-full backdrop-blur-lg bg-white/90 dark:bg-slate-950/90 border-b border-slate-200/80 dark:border-slate-800/80">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16 gap-2 sm:gap-3">
-                <!-- Brand Logo (Secret Gesture: Tap/Click 5 times within 3s to open Admin PIN modal) -->
+                <!-- Brand Logo (Secret Admin Gesture: Tap 5 times within 3 seconds) -->
                 <button type="button" id="brandLogoBtn" onclick="handleLogoClick()" class="flex items-center gap-2.5 text-left group shrink-0 focus:outline-none select-none">
                     <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-500 flex items-center justify-center shadow-md shadow-indigo-500/25 group-hover:scale-105 transition-transform">
                         <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
@@ -61,7 +61,7 @@
                             ToolBox <span class="text-indigo-600 dark:text-indigo-400">Pro</span>
                         </span>
                         <span class="text-[10px] font-semibold uppercase tracking-widest text-slate-400 dark:text-slate-500 mt-0.5 hidden lg:block">
-                            11 All-in-One Tools
+                            15 All-in-One Tools
                         </span>
                     </div>
                 </button>
@@ -72,7 +72,7 @@
                         <svg class="w-4 h-4 text-slate-400 absolute left-3.5 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"/>
                         </svg>
-                        <input id="globalToolSearch" type="text" autocomplete="off" oninput="handleToolSearch(this.value)" placeholder="Search PDF, Image, QR, EMI..." class="w-full pl-10 pr-8 py-2 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 text-xs sm:text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:bg-white dark:focus:bg-slate-900 focus:border-indigo-500 transition-all" />
+                        <input id="globalToolSearch" type="text" autocomplete="off" oninput="handleToolSearch(this.value)" placeholder="Search Compress PDF, Edit PDF, QR..." class="w-full pl-10 pr-8 py-2 rounded-xl bg-slate-100 dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 text-xs sm:text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:bg-white dark:focus:bg-slate-900 focus:border-indigo-500 transition-all" />
                         <button type="button" id="clearToolSearchBtn" onclick="clearToolSearch()" class="hidden absolute right-2.5 p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200" aria-label="Clear search">
                             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
                         </button>
@@ -121,11 +121,11 @@
         </div>
     </header>
 
-    <!-- AD SLOT 1 -->
+    <!-- AD SLOT 1: Top Banner -->
     <div class="ad-slot-container w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
         <div class="w-full rounded-2xl border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 px-4 py-3 flex items-center justify-between text-xs text-slate-400 dark:text-slate-500">
             <span class="font-bold uppercase tracking-widest text-[10px] shrink-0">Ad Slot 1</span>
-            <span class="truncate mx-3 text-center">Top Banner Ad (728×90 / 320×50) — Paste Adsterra Banner Code Here</span>
+            <span class="truncate mx-3 text-center">Top Banner (728×90 / 320×50) — Paste Adsterra Code Here</span>
             <button type="button" onclick="openPricingModal()" class="text-[10px] font-bold px-2.5 py-1 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 hover:bg-amber-200 transition-colors shrink-0">
                 Remove Ads ★
             </button>
@@ -139,37 +139,37 @@
             <div class="text-center max-w-3xl mx-auto mb-7 sm:mb-9">
                 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/70 border border-indigo-200/70 dark:border-indigo-800/60 text-indigo-700 dark:text-indigo-300 text-xs font-semibold mb-4">
                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
-                    10 Free Tools Without Login • 100% Local Browser Privacy
+                    14 Free Tools Without Login • 4 New PDF Power Tools Added
                 </div>
                 <h1 class="text-3xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white leading-tight mb-3">
                     All-in-One Online Tools for <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-blue-600 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">PDF, Images &amp; Daily Work.</span>
                 </h1>
                 <p class="text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-                    Fast, private utilities that run directly in your browser. Upgrade to Pro for Ad-Free speed, PDF Merge &amp; Split, Custom Logo QR codes, 100MB files, and Bulk Compression.
+                    Compress, Edit, Repair &amp; Convert PDFs right inside your browser with 100% local privacy. Upgrade to Pro for Ad-Free speed, PDF Merge &amp; Split, Custom Logo QR, and 100MB limits.
                 </p>
 
                 <!-- Mobile Search -->
                 <div class="mt-5 md:hidden">
-                    <input id="mobileToolSearch" type="text" autocomplete="off" oninput="handleToolSearch(this.value)" placeholder="Search 11 tools (PDF, Image, QR, EMI...)" class="w-full px-4 py-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500 shadow-sm" />
+                    <input id="mobileToolSearch" type="text" autocomplete="off" oninput="handleToolSearch(this.value)" placeholder="Search 15 tools (Compress PDF, Edit PDF, QR...)" class="w-full px-4 py-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-sm text-slate-900 dark:text-white placeholder-slate-400 focus:outline-none focus:border-indigo-500 shadow-sm" />
                 </div>
             </div>
 
             <!-- Category Filter Pills -->
             <div id="categoryPills" class="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto no-scrollbar pb-2 mb-7"></div>
 
-            <!-- 11 Tools Grid -->
+            <!-- 15 Tools Grid -->
             <div id="toolsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"></div>
 
             <!-- Empty Search State -->
             <div id="emptySearchState" class="hidden text-center py-14">
                 <p class="text-base font-bold text-slate-700 dark:text-slate-300 mb-3">No tools matched your search.</p>
-                <button type="button" onclick="clearToolSearch()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold">Show All 11 Tools</button>
+                <button type="button" onclick="clearToolSearch()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-bold">Show All 15 Tools</button>
             </div>
 
-            <!-- AD SLOT 2 -->
+            <!-- AD SLOT 2: Middle Banner -->
             <div class="ad-slot-container mt-10 w-full rounded-2xl border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-400 dark:text-slate-500">
                 <span class="font-bold uppercase tracking-widest text-[10px]">Ad Slot 2</span>
-                <span class="text-center">Mid-Page Responsive Ad (728×90) — Paste Adsterra Banner Code Here</span>
+                <span class="text-center">Middle Banner (728×90) — Paste Adsterra Code Here</span>
                 <button type="button" onclick="openPricingModal()" class="text-[11px] font-bold text-indigo-600 dark:text-indigo-400 hover:underline shrink-0">Go Ad-Free with Pro &rarr;</button>
             </div>
 
@@ -204,24 +204,25 @@
                     <div id="toolWorkspaceCard" class="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 sm:p-8 shadow-sm"></div>
                 </div>
                 <aside class="lg:col-span-4 space-y-6">
-                    <!-- AD SLOT 3 -->
-                    <div class="ad-slot-container rounded-3xl border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 p-6 text-center min-h-[240px] flex flex-col items-center justify-center">
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-2">Ad Slot 3</span>
-                        <p class="text-xs text-slate-500 dark:text-slate-400 max-w-[230px]">Sidebar Ad (300×250) — Paste Adsterra Banner Code Here</p>
-                        <button type="button" onclick="openPricingModal()" class="mt-3 text-[11px] font-bold px-3 py-1.5 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 hover:bg-amber-200 transition-colors">
-                            Hide All Ads with Pro ★
-                        </button>
-                    </div>
                     <div class="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
-                        <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-400 mb-3.5">Explore All 11 Tools</h3>
-                        <div id="sidebarOtherTools" class="space-y-1.5"></div>
+                        <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-400 mb-3.5">Explore All 15 Tools</h3>
+                        <div id="sidebarOtherTools" class="space-y-1.5 max-h-[460px] overflow-y-auto pr-1"></div>
                     </div>
                 </aside>
             </div>
         </section>
+
+        <!-- AD SLOT 3: Bottom Banner -->
+        <div class="ad-slot-container mt-10 w-full rounded-2xl border border-dashed border-slate-300 dark:border-slate-800 bg-slate-100/70 dark:bg-slate-900/50 px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-400 dark:text-slate-500">
+            <span class="font-bold uppercase tracking-widest text-[10px]">Ad Slot 3</span>
+            <span class="text-center">Bottom Banner (728×90 / 300×250) — Paste Adsterra Code Here</span>
+            <button type="button" onclick="openPricingModal()" class="text-[11px] font-bold px-3 py-1 rounded-lg bg-amber-100 dark:bg-amber-950/60 text-amber-700 dark:text-amber-300 hover:bg-amber-200 transition-colors shrink-0">
+                Hide All Ads ★
+            </button>
+        </div>
     </main>
 
-    <!-- ==================== FOOTER (NO ADMIN BUTTON) ==================== -->
+    <!-- ==================== FOOTER (STRICTLY NO ADMIN BUTTON) ==================== -->
     <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
             <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
@@ -233,7 +234,7 @@
                         <span class="font-black text-slate-900 dark:text-white tracking-tight">ToolBox Pro</span>
                     </div>
                     <p class="text-sm text-slate-500 dark:text-slate-400 max-w-md">
-                        11 browser-based productivity tools with local file privacy and single-use Pro license keys.
+                        15 browser-based productivity tools with local file privacy and single-use Pro license keys.
                     </p>
                 </div>
                 <div class="flex flex-wrap items-center gap-4 sm:gap-5 text-sm font-semibold text-slate-600 dark:text-slate-400">
@@ -255,9 +256,7 @@
         <div class="w-[95vw] max-w-md max-h-[90vh] overflow-y-auto rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl animate-fade-in">
             <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-900 z-10">
                 <h2 id="authModalTitle" class="text-base sm:text-lg font-black text-slate-900 dark:text-white truncate">Login to ToolBox Pro</h2>
-                <button type="button" onclick="closeAuthModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0" aria-label="Close">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
+                <button type="button" onclick="closeAuthModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0 text-lg font-bold leading-none" aria-label="Close">&times;</button>
             </div>
 
             <div class="grid grid-cols-3 gap-1 p-1.5 mx-5 mt-4 rounded-2xl bg-slate-100 dark:bg-slate-800/80">
@@ -343,9 +342,7 @@
         <div class="w-[95vw] max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl animate-fade-in">
             <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-900 z-10">
                 <h2 class="text-base sm:text-lg font-black text-slate-900 dark:text-white">My Account Dashboard</h2>
-                <button type="button" onclick="closeAccountModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0" aria-label="Close">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
+                <button type="button" onclick="closeAccountModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0 text-lg font-bold leading-none" aria-label="Close">&times;</button>
             </div>
             <div id="accountModalBody" class="p-5 sm:p-6 space-y-5"></div>
         </div>
@@ -364,9 +361,7 @@
                         <button type="button" id="priceCurINR" onclick="setPricingCurrency('INR')" class="px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm">₹ INR</button>
                         <button type="button" id="priceCurUSD" onclick="setPricingCurrency('USD')" class="px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400">$ USD</button>
                     </div>
-                    <button type="button" onclick="closePricingModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Close">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-                    </button>
+                    <button type="button" onclick="closePricingModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 text-lg font-bold leading-none" aria-label="Close">&times;</button>
                 </div>
             </div>
 
@@ -383,7 +378,7 @@
                             <p class="text-xs text-slate-500 mb-4">Full Pro access for 30 days</p>
                         </div>
                         <button type="button" onclick="instantCheckout('monthly')" class="w-full py-2.5 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-extrabold text-xs hover:opacity-90">
-                            Instant Checkout &amp; Auto-Key
+                            Instant Checkout &amp; Auto-Generate Key
                         </button>
                     </div>
 
@@ -397,7 +392,7 @@
                             <p class="text-xs text-slate-500 mb-4">Full Pro access for 90 days</p>
                         </div>
                         <button type="button" onclick="instantCheckout('quarterly')" class="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-xs shadow-md">
-                            Instant Checkout &amp; Auto-Key
+                            Instant Checkout &amp; Auto-Generate Key
                         </button>
                     </div>
 
@@ -411,7 +406,7 @@
                             <p class="text-xs text-slate-500 mb-4">Full Pro access for 365 days</p>
                         </div>
                         <button type="button" onclick="instantCheckout('yearly')" class="w-full py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-950 font-extrabold text-xs shadow-md">
-                            Instant Checkout &amp; Auto-Key ★
+                            Instant Checkout &amp; Auto-Generate Key ★
                         </button>
                     </div>
                 </div>
@@ -432,6 +427,7 @@
                         <tbody class="divide-y divide-slate-100 dark:divide-slate-800">
                             <tr><td class="px-4 py-2 font-semibold">Advertisements</td><td class="px-4 py-2 text-slate-500">3 Ad Slots</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">100% Ad-Free</td></tr>
                             <tr><td class="px-4 py-2 font-semibold">PDF Merge &amp; Split</td><td class="px-4 py-2 text-slate-500">Locked</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">Full Access</td></tr>
+                            <tr><td class="px-4 py-2 font-semibold">Compress, Edit, Repair &amp; Convert PDF</td><td class="px-4 py-2 font-semibold">Included</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">Ad-Free &amp; Priority</td></tr>
                             <tr><td class="px-4 py-2 font-semibold">Image Compression</td><td class="px-4 py-2 text-slate-500">Single (5 MB max)</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">Bulk (100 MB max)</td></tr>
                             <tr><td class="px-4 py-2 font-semibold">Custom Logo QR Code</td><td class="px-4 py-2 text-slate-500">Standard QR</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">Centered Brand Logo</td></tr>
                             <tr><td class="px-4 py-2 font-semibold">Word to PDF Export</td><td class="px-4 py-2 text-slate-500">Footer Watermark</td><td class="px-4 py-2 font-bold text-emerald-600 dark:text-emerald-400">Watermark-Free</td></tr>
@@ -443,7 +439,7 @@
                 <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700">
                     <form onsubmit="handleRedeemKeySubmit(event, 'pricing')" class="flex flex-col sm:flex-row items-stretch sm:items-end gap-2.5">
                         <div class="flex-1">
-                            <label for="redeemKeyInput" class="block text-xs font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1.5">Redeem Single-Use Unlock Key</label>
+                            <label for="redeemKeyInput" class="block text-xs font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1.5">Redeem License Key</label>
                             <input id="redeemKeyInput" type="text" autocomplete="off" placeholder="TB-M-XXXX-XXXX" class="w-full px-4 py-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-sm font-mono font-bold uppercase tracking-wider focus:outline-none focus:border-indigo-500" required />
                         </div>
                         <button type="submit" class="px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shrink-0">Activate Key</button>
@@ -460,14 +456,12 @@
             <div class="flex items-center justify-between gap-3 px-5 py-4 border-b border-slate-100 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-900 z-10">
                 <div class="min-w-0">
                     <h2 class="text-base sm:text-lg font-black text-slate-900 dark:text-white truncate">Owner Admin Panel</h2>
-                    <p class="text-xs text-slate-500 truncate">Live metrics, batch key generator &amp; audit log</p>
+                    <p class="text-xs text-slate-500 truncate">Live stats, batch key generator &amp; audit table</p>
                 </div>
-                <button type="button" onclick="closeAdminModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0" aria-label="Close">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
+                <button type="button" onclick="closeAdminModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 shrink-0 text-lg font-bold leading-none" aria-label="Close">&times;</button>
             </div>
 
-            <!-- PIN Gate (Strictly no default PIN hint; masked password input) -->
+            <!-- PIN Gate (No PIN hint; masked password input) -->
             <div id="adminPinGate" class="p-6 sm:p-8 text-center max-w-sm mx-auto space-y-4">
                 <label for="adminPinInput" class="block text-sm font-bold text-slate-700 dark:text-slate-300">Enter Owner Admin PIN</label>
                 <form onsubmit="verifyAdminPin(event)" class="flex flex-col sm:flex-row gap-2">
@@ -489,7 +483,7 @@
                         <div id="statActivePro" class="text-2xl font-black text-emerald-700 dark:text-emerald-300 mt-1">0</div>
                     </div>
                     <div class="p-3.5 rounded-2xl bg-indigo-50 dark:bg-indigo-950/35 border border-indigo-200 dark:border-indigo-800/60">
-                        <div class="text-[10px] font-extrabold uppercase text-indigo-600 dark:text-indigo-400">Keys Created</div>
+                        <div class="text-[10px] font-extrabold uppercase text-indigo-600 dark:text-indigo-400">Total Keys</div>
                         <div id="statTotalKeys" class="text-2xl font-black text-indigo-700 dark:text-indigo-300 mt-1">0</div>
                     </div>
                     <div class="p-3.5 rounded-2xl bg-amber-50 dark:bg-amber-950/35 border border-amber-200 dark:border-amber-800/60">
@@ -507,14 +501,14 @@
                             <option value="quarterly">Quarterly (90 Days — TB-Q)</option>
                             <option value="yearly">Yearly (365 Days — TB-Y)</option>
                         </select>
-                        <button type="button" onclick="adminGenerateBatch(1)" class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-extrabold">Generate 1</button>
-                        <button type="button" onclick="adminGenerateBatch(5)" class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-extrabold">Generate 5</button>
+                        <button type="button" onclick="adminGenerateBatch(1)" class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-extrabold">Generate 1 Key</button>
+                        <button type="button" onclick="adminGenerateBatch(5)" class="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 text-xs font-extrabold">Generate 5 Keys</button>
                     </div>
                 </div>
 
                 <!-- Key Audit Log Table -->
                 <div>
-                    <div class="text-xs font-extrabold uppercase tracking-wider text-slate-500 mb-2">Key Audit Log</div>
+                    <div class="text-xs font-extrabold uppercase tracking-wider text-slate-500 mb-2">Key Audit Table</div>
                     <div class="overflow-x-auto rounded-2xl border border-slate-200 dark:border-slate-800">
                         <table class="w-full text-left text-xs">
                             <thead class="bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 uppercase text-[10px] font-extrabold">
@@ -522,7 +516,8 @@
                                     <th class="px-3 py-2.5">Key</th>
                                     <th class="px-3 py-2.5">Plan</th>
                                     <th class="px-3 py-2.5">Status</th>
-                                    <th class="px-3 py-2.5">Used By</th>
+                                    <th class="px-3 py-2.5">Redeemed By</th>
+                                    <th class="px-3 py-2.5">Date</th>
                                     <th class="px-3 py-2.5 text-right">Action</th>
                                 </tr>
                             </thead>
@@ -539,9 +534,7 @@
         <div class="w-[95vw] max-w-lg max-h-[90vh] overflow-y-auto rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-2xl animate-fade-in">
             <div class="flex items-center justify-between px-5 py-4 border-b border-slate-100 dark:border-slate-800 sticky top-0 bg-white dark:bg-slate-900">
                 <h3 id="modalTitle" class="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white">Information</h3>
-                <button type="button" onclick="closeInfoModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200" aria-label="Close">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-                </button>
+                <button type="button" onclick="closeInfoModal()" class="p-2 rounded-xl text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 text-lg font-bold leading-none" aria-label="Close">&times;</button>
             </div>
             <div id="modalBody" class="p-5 text-sm text-slate-600 dark:text-slate-300 space-y-3 leading-relaxed"></div>
         </div>
@@ -556,7 +549,7 @@
     <!-- ==================== JAVASCRIPT ==================== -->
     <script>
         // =========================================================================
-        // 1. OWNER CONFIGURATION & STORAGE KEYS
+        // 1. OWNER CONFIGURATION & PLANS
         // =========================================================================
         const OWNER_CONFIG = {
             adminPin: "7407324529",
@@ -570,10 +563,10 @@
             yearly:    { code: 'Y', name: 'Yearly Pro',    days: 365, inr: '₹699', usd: '$34.99' }
         };
 
-        const STORAGE_USERS = 'tbp_users_v2';
-        const STORAGE_KEYS  = 'tbp_keys_v2';
-        const STORAGE_SESS  = 'tbp_session_v2';
-        const STORAGE_THEME = 'tbp_theme_v2';
+        const STORAGE_USERS = 'tbp_users_v3';
+        const STORAGE_KEYS  = 'tbp_keys_v3';
+        const STORAGE_SESS  = 'tbp_session_v3';
+        const STORAGE_THEME = 'tbp_theme_v3';
 
         let currentCurrency = 'INR';
         let activeCategory = 'All';
@@ -582,9 +575,18 @@
         let pendingForgotEmail = '';
         let pendingForgotCode = '';
 
+        // State for Edit PDF tool
+        let editPdfState = null;
+
         // =========================================================================
         // 2. DATA HELPERS & CRYPTO KEY GENERATOR
         // =========================================================================
+        function ensurePdfWorker() {
+            if (window.pdfjsLib && !pdfjsLib.GlobalWorkerOptions.workerSrc) {
+                pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+            }
+        }
+
         function getUsers() {
             try { return JSON.parse(localStorage.getItem(STORAGE_USERS)) || []; } catch { return []; }
         }
@@ -646,15 +648,35 @@
             ta.style.opacity = '0';
             document.body.appendChild(ta);
             ta.select();
-            try { document.execCommand('copy'); showToast('Copied: ' + text); } catch { showToast('Copy failed'); }
+            try { document.execCommand('copy'); showToast('Copied to clipboard!'); } catch { showToast('Copy failed'); }
             document.body.removeChild(ta);
         }
 
         function formatBytes(bytes) {
-            if (bytes === 0) return '0 B';
+            if (!bytes || bytes <= 0) return '0 B';
             const k = 1024, sizes = ['B', 'KB', 'MB', 'GB'];
             const i = Math.floor(Math.log(bytes) / Math.log(k));
             return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+        }
+
+        function triggerBlobDownload(blob, filename) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            setTimeout(() => URL.revokeObjectURL(url), 5000);
+        }
+
+        function hexToRgb01(hex) {
+            const h = hex.replace('#', '');
+            return {
+                r: parseInt(h.substring(0, 2), 16) / 255,
+                g: parseInt(h.substring(2, 4), 16) / 255,
+                b: parseInt(h.substring(4, 6), 16) / 255
+            };
         }
 
         // =========================================================================
@@ -692,13 +714,11 @@
                 navIn.classList.add('hidden');
             }
             if (homeProBanner) homeProBanner.classList.toggle('hidden', pro);
-
-            // Re-render current tool if open so Pro locks/features update immediately
             if (currentToolId) renderToolWorkspace(currentToolId);
         }
 
         // =========================================================================
-        // 4. AUTHENTICATION (SIGN UP, LOGIN, FORGOT PASSWORD, MY ACCOUNT)
+        // 4. AUTHENTICATION & MY ACCOUNT
         // =========================================================================
         function openAuthModal(tab = 'login') {
             document.getElementById('authModal').classList.remove('hidden');
@@ -730,8 +750,9 @@
             const tabs = { login: 'authTabLogin', signup: 'authTabSignup', forgot: 'authTabForgot' };
             Object.entries(tabs).forEach(([k, id]) => {
                 const btn = document.getElementById(id);
-                if (k === tab) btn.className = 'py-2 rounded-xl text-xs font-extrabold bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm';
-                else btn.className = 'py-2 rounded-xl text-xs font-extrabold text-slate-500 dark:text-slate-400';
+                btn.className = k === tab
+                    ? 'py-2 rounded-xl text-xs font-extrabold bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm'
+                    : 'py-2 rounded-xl text-xs font-extrabold text-slate-500 dark:text-slate-400';
             });
             document.getElementById('loginForm').classList.toggle('hidden', tab !== 'login');
             document.getElementById('signupForm').classList.toggle('hidden', tab !== 'signup');
@@ -861,7 +882,7 @@
                 </div>
 
                 <form onsubmit="handleRedeemKeySubmit(event, 'account')" class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 space-y-2.5">
-                    <label for="accountRedeemInput" class="block text-xs font-extrabold uppercase text-slate-500">Redeem Unlock Key</label>
+                    <label for="accountRedeemInput" class="block text-xs font-extrabold uppercase text-slate-500">Redeem License Key</label>
                     <div class="flex flex-col sm:flex-row gap-2">
                         <input id="accountRedeemInput" type="text" required placeholder="TB-M-XXXX-XXXX" class="flex-1 px-4 py-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-sm font-mono font-bold uppercase focus:outline-none focus:border-indigo-500">
                         <button type="submit" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-xs">Activate</button>
@@ -904,13 +925,8 @@
             currentCurrency = cur;
             const inrBtn = document.getElementById('priceCurINR');
             const usdBtn = document.getElementById('priceCurUSD');
-            if (cur === 'INR') {
-                inrBtn.className = 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm';
-                usdBtn.className = 'px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400';
-            } else {
-                usdBtn.className = 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm';
-                inrBtn.className = 'px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400';
-            }
+            inrBtn.className = cur === 'INR' ? 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm' : 'px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400';
+            usdBtn.className = cur === 'USD' ? 'px-2.5 py-1 rounded-lg bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm' : 'px-2.5 py-1 rounded-lg text-slate-600 dark:text-slate-400';
             document.getElementById('priceMonthlyDisplay').textContent = cur === 'INR' ? PLANS.monthly.inr : PLANS.monthly.usd;
             document.getElementById('priceQuarterlyDisplay').textContent = cur === 'INR' ? PLANS.quarterly.inr : PLANS.quarterly.usd;
             document.getElementById('priceYearlyDisplay').textContent = cur === 'INR' ? PLANS.yearly.inr : PLANS.yearly.usd;
@@ -938,7 +954,6 @@
             });
             saveKeys(keys);
 
-            // Auto-activate immediately for the logged-in user
             activateKeyForUser(newKey);
 
             const box = document.getElementById('checkoutKeyResult');
@@ -961,7 +976,7 @@
             const code = rawKey.trim().toUpperCase();
             const keys = getKeys();
             const keyObj = keys.find(k => k.key === code);
-            if (!keyObj) return { ok: false, error: 'Invalid unlock key.' };
+            if (!keyObj) return { ok: false, error: 'Invalid license key.' };
             if (keyObj.used) return { ok: false, error: 'This key has already been redeemed (1-time use only).' };
 
             keyObj.used = true;
@@ -1058,7 +1073,7 @@
 
             const tbody = document.getElementById('adminAuditBody');
             if (!keys.length) {
-                tbody.innerHTML = `<tr><td colspan="5" class="px-3 py-6 text-center text-slate-400">No keys generated yet.</td></tr>`;
+                tbody.innerHTML = `<tr><td colspan="6" class="px-3 py-6 text-center text-slate-400">No keys generated yet.</td></tr>`;
                 return;
             }
             tbody.innerHTML = keys.slice().reverse().map(k => `
@@ -1067,10 +1082,11 @@
                     <td class="px-3 py-2.5 whitespace-nowrap">${k.planName}</td>
                     <td class="px-3 py-2.5">
                         <span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold ${k.used ? 'bg-slate-200 text-slate-600 dark:bg-slate-700 dark:text-slate-300' : 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300'}">
-                            ${k.used ? 'Used' : 'Unused'}
+                            ${k.used ? 'Redeemed' : 'Unused'}
                         </span>
                     </td>
-                    <td class="px-3 py-2.5 text-slate-500 truncate max-w-[140px]">${k.usedBy || '—'}</td>
+                    <td class="px-3 py-2.5 text-slate-500 truncate max-w-[130px]">${k.usedBy || '—'}</td>
+                    <td class="px-3 py-2.5 text-slate-400 whitespace-nowrap">${new Date(k.usedAt || k.createdAt).toLocaleDateString('en-IN')}</td>
                     <td class="px-3 py-2.5 text-right">
                         <button type="button" onclick="copyText('${k.key}')" class="px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-indigo-600 hover:text-white text-[10px] font-bold transition-colors">Copy</button>
                     </td>
@@ -1082,11 +1098,9 @@
             const planKey = document.getElementById('adminPlanSelect').value;
             const plan = PLANS[planKey];
             const keys = getKeys();
-            const created = [];
             for (let i = 0; i < count; i++) {
-                const newKey = generateUniqueKey(planKey);
                 keys.push({
-                    key: newKey,
+                    key: generateUniqueKey(planKey),
                     planKey,
                     planName: plan.name,
                     days: plan.days,
@@ -1094,7 +1108,6 @@
                     usedBy: null,
                     createdAt: new Date().toISOString()
                 });
-                created.push(newKey);
             }
             saveKeys(keys);
             renderAdminDashboard();
@@ -1102,24 +1115,28 @@
         }
 
         // =========================================================================
-        // 7. TOOLS CATALOG & NAVIGATION
+        // 7. 15 TOOLS CATALOG & NAVIGATION
         // =========================================================================
         const TOOLS = [
-            { id: 'img-compress', name: 'Image Compressor', cat: 'Image', pro: false, desc: 'Compress JPG/PNG/WebP locally. Bulk mode up to 100MB for Pro.', icon: '🖼️' },
-            { id: 'pdf-merge',    name: 'PDF Merge & Split', cat: 'PDF',   pro: true,  desc: 'Merge multiple PDFs or split specific page ranges.', icon: '📑' },
-            { id: 'pdf-to-word',  name: 'PDF to Word',       cat: 'PDF',   pro: false, desc: 'Extract text from PDF files and export as editable .doc.', icon: '📄' },
-            { id: 'word-to-pdf',  name: 'Word to PDF',       cat: 'PDF',   pro: false, desc: 'Convert .docx or text to PDF. Watermark-free for Pro.', icon: '📝' },
-            { id: 'qr-gen',       name: 'QR Code Generator', cat: 'Utility', pro: false, desc: 'Generate custom-sized QR codes with optional Pro logo.', icon: '📱' },
-            { id: 'emi-calc',     name: 'EMI Calculator',    cat: 'Finance', pro: false, desc: 'Calculate monthly loan EMI with live SVG Donut Chart.', icon: '💰' },
-            { id: 'age-calc',     name: 'Exact Age Calculator', cat: 'Utility', pro: false, desc: 'Years, months, weeks, days, hours & next birthday.', icon: '🎂' },
-            { id: 'yt-thumb',     name: 'YouTube Thumbnail', cat: 'Media', pro: false, desc: 'Extract HD & SD thumbnails from any YouTube video URL.', icon: '▶️' },
-            { id: 'word-count',   name: 'Word Counter',      cat: 'Text',  pro: false, desc: 'Count words, characters, sentences, and paragraphs.', icon: '🔢' },
-            { id: 'pass-gen',     name: 'Password Generator', cat: 'Security', pro: false, desc: 'Generate cryptographically strong random passwords.', icon: '🔐' },
-            { id: 'unit-conv',    name: 'Unit Converter',    cat: 'Utility', pro: false, desc: 'Bidirectional Length, Weight, and Temperature converter.', icon: '⚖️' }
+            { id: 'compress-pdf',  name: 'Compress PDF',          cat: 'PDF Tools',     isNew: true,  pro: false, desc: 'Reduce PDF file size with Low, Medium, or High compression locally.', icon: '🗜️' },
+            { id: 'edit-pdf',      name: 'Edit PDF',              cat: 'PDF Tools',     isNew: true,  pro: false, desc: 'Add text annotations, watermarks, rotate or delete pages visually.', icon: '✏️' },
+            { id: 'repair-pdf',    name: 'Repair PDF',            cat: 'PDF Tools',     isNew: true,  pro: false, desc: 'Recover damaged/corrupt PDFs with structural & visual fallback.', icon: '🛠️' },
+            { id: 'pdf-converter', name: 'PDF Converter',         cat: 'PDF Tools',     isNew: true,  pro: false, desc: '4-in-1: Images to PDF, PDF to Images, Text to PDF & PDF to Text.', icon: '🔄' },
+            { id: 'pdf-merge',     name: 'PDF Merge & Split',     cat: 'PDF Tools',     isNew: false, pro: true,  desc: 'Merge multiple PDFs into one or split specific page ranges.', icon: '📑' },
+            { id: 'pdf-to-word',   name: 'PDF to Word',           cat: 'PDF Tools',     isNew: false, pro: false, desc: 'Extract text from PDF files and export as editable .doc.', icon: '📄' },
+            { id: 'word-to-pdf',   name: 'Word to PDF',           cat: 'PDF Tools',     isNew: false, pro: false, desc: 'Convert .docx or text to PDF. Watermark-free for Pro users.', icon: '📝' },
+            { id: 'img-compress',  name: 'Image Compressor',      cat: 'Image & Media', isNew: false, pro: false, desc: 'Compress JPG/PNG/WebP locally. Bulk up to 100MB for Pro.', icon: '🖼️' },
+            { id: 'yt-thumb',      name: 'YouTube Thumbnail',     cat: 'Image & Media', isNew: false, pro: false, desc: 'Preview and download HD, MaxRes & SD thumbnails from any video.', icon: '▶️' },
+            { id: 'qr-gen',        name: 'QR Code Generator',     cat: 'Utilities',     isNew: false, pro: false, desc: 'Create 150/250/400px QR codes with optional Pro center logo.', icon: '📱' },
+            { id: 'emi-calc',      name: 'EMI Calculator',        cat: 'Utilities',     isNew: false, pro: false, desc: 'Calculate monthly EMI, interest & total payment with Donut Chart.', icon: '💰' },
+            { id: 'age-calc',      name: 'Exact Age Calculator',  cat: 'Utilities',     isNew: false, pro: false, desc: 'Exact years, months, weeks, days, hours & next birthday.', icon: '🎂' },
+            { id: 'word-count',    name: 'Word Counter',          cat: 'Utilities',     isNew: false, pro: false, desc: 'Live words, characters, sentences, paragraphs & reading time.', icon: '🔢' },
+            { id: 'pass-gen',      name: 'Password Generator',    cat: 'Utilities',     isNew: false, pro: false, desc: 'Cryptographically strong passwords with live strength meter.', icon: '🔐' },
+            { id: 'unit-conv',     name: 'Unit Converter',        cat: 'Utilities',     isNew: false, pro: false, desc: 'Bidirectional Length, Weight, Temp, Area & Data converter.', icon: '⚖️' }
         ];
 
         function renderCategoryPills() {
-            const cats = ['All', ...new Set(TOOLS.map(t => t.cat))];
+            const cats = ['All', 'PDF Tools', 'Image & Media', 'Utilities'];
             document.getElementById('categoryPills').innerHTML = cats.map(c => `
                 <button type="button" onclick="activeCategory='${c}'; renderCategoryPills(); renderToolsGrid();" class="px-4 py-1.5 rounded-full text-xs font-bold shrink-0 transition-all ${activeCategory === c ? 'bg-indigo-600 text-white shadow-sm' : 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:border-indigo-400'}">${c}</button>
             `).join('');
@@ -1144,9 +1161,12 @@
             grid.innerHTML = filtered.map(t => `
                 <button type="button" onclick="openTool('${t.id}')" class="group text-left p-5 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-indigo-500 dark:hover:border-indigo-500 hover:shadow-lg transition-all flex flex-col justify-between h-full">
                     <div>
-                        <div class="flex items-center justify-between mb-3">
-                            <span class="w-11 h-11 rounded-2xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-2xl">${t.icon}</span>
-                            ${t.pro ? '<span class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300">PRO ★</span>' : '<span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-500">FREE</span>'}
+                        <div class="flex items-center justify-between mb-3 gap-2">
+                            <span class="w-11 h-11 rounded-2xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-2xl shrink-0">${t.icon}</span>
+                            <div class="flex items-center gap-1.5">
+                                ${t.isNew ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">NEW</span>' : ''}
+                                ${t.pro ? '<span class="px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300">PRO ★</span>' : '<span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-slate-100 dark:bg-slate-800 text-slate-500">FREE</span>'}
+                            </div>
                         </div>
                         <h3 class="text-base font-extrabold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">${t.name}</h3>
                         <p class="text-xs text-slate-500 dark:text-slate-400 mt-1.5 leading-relaxed">${t.desc}</p>
@@ -1171,8 +1191,11 @@
             document.getElementById('quickToolSwitcher').innerHTML = TOOLS.map(t => `<option value="${t.id}">${t.icon} ${t.name}</option>`).join('');
             document.getElementById('sidebarOtherTools').innerHTML = TOOLS.map(t => `
                 <button type="button" onclick="openTool('${t.id}')" class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-bold hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-left">
-                    <span>${t.icon} ${t.name}</span>
-                    ${t.pro ? '<span class="text-[10px] text-amber-500 font-extrabold">★</span>' : ''}
+                    <span class="truncate">${t.icon} ${t.name}</span>
+                    <span class="flex items-center gap-1 shrink-0">
+                        ${t.isNew ? '<span class="text-[9px] px-1.5 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 font-extrabold">NEW</span>' : ''}
+                        ${t.pro ? '<span class="text-[10px] text-amber-500 font-extrabold">★</span>' : ''}
+                    </span>
                 </button>
             `).join('');
         }
@@ -1210,14 +1233,13 @@
         }
 
         // =========================================================================
-        // 8. ALL 11 WORKING BROWSER-BASED TOOLS
+        // 8. ALL 15 WORKING BROWSER-BASED TOOLS
         // =========================================================================
         function renderToolWorkspace(id) {
             const tool = TOOLS.find(t => t.id === id);
             const pro = isProActive();
             const card = document.getElementById('toolWorkspaceCard');
 
-            // Pro Exclusive Gate for PDF Merge & Split
             if (tool.pro && !pro) {
                 card.innerHTML = `
                     <div class="text-center py-10 space-y-4">
@@ -1233,15 +1255,275 @@
             const header = `
                 <div class="flex items-center gap-3 pb-5 mb-6 border-b border-slate-100 dark:border-slate-800">
                     <span class="w-12 h-12 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 flex items-center justify-center text-2xl shrink-0">${tool.icon}</span>
-                    <div>
-                        <h2 class="text-xl font-black text-slate-900 dark:text-white">${tool.name}</h2>
+                    <div class="min-w-0">
+                        <div class="flex items-center gap-2">
+                            <h2 class="text-xl font-black text-slate-900 dark:text-white truncate">${tool.name}</h2>
+                            ${tool.isNew ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-100 text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">NEW</span>' : ''}
+                        </div>
                         <p class="text-xs text-slate-500 dark:text-slate-400">${tool.desc}</p>
                     </div>
                 </div>
             `;
 
-            // TOOL 1: IMAGE COMPRESSOR
-            if (id === 'img-compress') {
+            // ---------------------------------------------------------------------
+            // TOOL 1: COMPRESS PDF (NEW)
+            // ---------------------------------------------------------------------
+            if (id === 'compress-pdf') {
+                card.innerHTML = header + `
+                    <div class="space-y-5">
+                        <div id="compPdfZone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 text-center space-y-2 cursor-pointer" onclick="document.getElementById('compPdfInput').click()">
+                            <p class="text-sm font-bold">Drag &amp; Drop PDF or Tap to Choose File</p>
+                            <p class="text-xs text-slate-500">Re-renders &amp; optimizes PDF pages locally in your browser</p>
+                            <input id="compPdfInput" type="file" accept="application/pdf" class="hidden" />
+                        </div>
+                        <div class="grid grid-cols-3 gap-2">
+                            <label class="p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60 cursor-pointer text-center">
+                                <input type="radio" name="pdfCompLvl" value="low" class="mb-1">
+                                <div class="text-xs font-extrabold">Low</div>
+                                <div class="text-[10px] text-slate-500">High Quality</div>
+                            </label>
+                            <label class="p-3 rounded-xl border-2 border-indigo-500 bg-indigo-50/50 dark:bg-indigo-950/30 cursor-pointer text-center">
+                                <input type="radio" name="pdfCompLvl" value="medium" checked class="mb-1">
+                                <div class="text-xs font-extrabold text-indigo-600 dark:text-indigo-400">Medium</div>
+                                <div class="text-[10px] text-slate-500">Balanced</div>
+                            </label>
+                            <label class="p-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/60 cursor-pointer text-center">
+                                <input type="radio" name="pdfCompLvl" value="high" class="mb-1">
+                                <div class="text-xs font-extrabold">High</div>
+                                <div class="text-[10px] text-slate-500">Smallest Size</div>
+                            </label>
+                        </div>
+                        <div id="compPdfFileName" class="hidden text-xs font-bold text-indigo-600 dark:text-indigo-400"></div>
+                        <button type="button" onclick="runCompressPdf()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm shadow-md">Compress PDF Now</button>
+                        <div id="compPdfStatus" class="hidden p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 space-y-3"></div>
+                    </div>
+                `;
+                setupDropzone('compPdfZone', 'compPdfInput', files => {
+                    window._compPdfFile = files[0];
+                    const lbl = document.getElementById('compPdfFileName');
+                    lbl.textContent = `Selected: ${files[0].name} (${formatBytes(files[0].size)})`;
+                    lbl.classList.remove('hidden');
+                });
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 2: EDIT PDF (NEW)
+            // ---------------------------------------------------------------------
+            else if (id === 'edit-pdf') {
+                editPdfState = null;
+                card.innerHTML = header + `
+                    <div class="space-y-4">
+                        <div id="editPdfZone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 text-center space-y-2 cursor-pointer" onclick="document.getElementById('editPdfInput').click()">
+                            <p class="text-sm font-bold">Upload PDF to Open Interactive Editor</p>
+                            <p class="text-xs text-slate-500">Tap anywhere on the page preview to place text, add watermark, rotate or delete pages</p>
+                            <input id="editPdfInput" type="file" accept="application/pdf" class="hidden" />
+                        </div>
+
+                        <div id="editPdfWorkspace" class="hidden space-y-4">
+                            <!-- Toolbar -->
+                            <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700 space-y-3">
+                                <div class="grid grid-cols-1 sm:grid-cols-12 gap-2">
+                                    <input id="editAnnText" type="text" placeholder="Text to place on PDF (tap preview)..." value="Approved" class="sm:col-span-6 px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                    <input id="editAnnSize" type="number" min="8" max="72" value="18" title="Font Size" class="sm:col-span-3 px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                    <input id="editAnnColor" type="color" value="#e11d48" title="Text Color" class="sm:col-span-3 h-9 w-full rounded-xl cursor-pointer bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 p-1">
+                                </div>
+                                <div class="grid grid-cols-1 sm:grid-cols-12 gap-2">
+                                    <input id="editWatermarkInput" type="text" placeholder="Optional watermark across all pages (e.g., CONFIDENTIAL)" oninput="updateEditWatermark(this.value)" class="sm:col-span-6 px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                    <button type="button" onclick="editRotateCurrentPage()" class="sm:col-span-2 px-3 py-2 rounded-xl bg-slate-200 dark:bg-slate-700 text-xs font-extrabold">Rotate 90°</button>
+                                    <button type="button" onclick="editUndoAnnotation()" class="sm:col-span-2 px-3 py-2 rounded-xl bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300 text-xs font-extrabold">Undo Text</button>
+                                    <button type="button" onclick="editDeleteCurrentPage()" class="sm:col-span-2 px-3 py-2 rounded-xl bg-rose-100 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 text-xs font-extrabold">Delete Page</button>
+                                </div>
+                            </div>
+
+                            <!-- Page Navigation -->
+                            <div class="flex items-center justify-between gap-2">
+                                <div class="flex items-center gap-2">
+                                    <button type="button" onclick="editChangePage(-1)" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-extrabold">&larr; Prev</button>
+                                    <span id="editPageIndicator" class="text-xs font-extrabold">Page 1 of 1</span>
+                                    <button type="button" onclick="editChangePage(1)" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-xs font-extrabold">Next &rarr;</button>
+                                </div>
+                                <button type="button" onclick="exportEditedPdf()" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold shadow-md">Download Edited PDF</button>
+                            </div>
+
+                            <!-- Interactive Canvas Preview -->
+                            <div class="p-3 rounded-2xl bg-slate-100 dark:bg-slate-950 border border-slate-200 dark:border-slate-800 flex flex-col items-center">
+                                <p class="text-[11px] font-semibold text-indigo-600 dark:text-indigo-400 mb-2">Tap / Click anywhere on the page below to place your text</p>
+                                <canvas id="editPdfCanvas" onclick="handleEditCanvasClick(event)" class="max-w-full rounded-xl shadow-lg cursor-crosshair bg-white"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                setupDropzone('editPdfZone', 'editPdfInput', files => loadEditPdfFile(files[0]));
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 3: REPAIR PDF (NEW)
+            // ---------------------------------------------------------------------
+            else if (id === 'repair-pdf') {
+                card.innerHTML = header + `
+                    <div class="space-y-5">
+                        <div id="repairPdfZone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 text-center space-y-2 cursor-pointer" onclick="document.getElementById('repairPdfInput').click()">
+                            <p class="text-sm font-bold">Drop Damaged / Corrupt PDF or Tap to Choose File</p>
+                            <p class="text-xs text-slate-500">Structural pdf-lib rebuild with automatic visual pdf.js recovery fallback</p>
+                            <input id="repairPdfInput" type="file" accept="application/pdf,.pdf" class="hidden" />
+                        </div>
+                        <div id="repairLogBox" class="hidden p-4 rounded-2xl bg-slate-900 text-emerald-400 font-mono text-xs space-y-1.5 max-h-60 overflow-y-auto"></div>
+                        <div id="repairResultBox" class="hidden"></div>
+                    </div>
+                `;
+                setupDropzone('repairPdfZone', 'repairPdfInput', files => runRepairPdf(files[0]));
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 4: PDF CONVERTER (4-IN-1 NEW)
+            // ---------------------------------------------------------------------
+            else if (id === 'pdf-converter') {
+                card.innerHTML = header + `
+                    <div class="space-y-5">
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 p-1.5 rounded-2xl bg-slate-100 dark:bg-slate-800/80">
+                            <button type="button" id="convTabImg2Pdf" onclick="switchPdfConvTab('img2pdf')" class="py-2 rounded-xl text-xs font-extrabold">Images &rarr; PDF</button>
+                            <button type="button" id="convTabPdf2Img" onclick="switchPdfConvTab('pdf2img')" class="py-2 rounded-xl text-xs font-extrabold">PDF &rarr; Images</button>
+                            <button type="button" id="convTabTxt2Pdf" onclick="switchPdfConvTab('txt2pdf')" class="py-2 rounded-xl text-xs font-extrabold">Text &rarr; PDF</button>
+                            <button type="button" id="convTabPdf2Txt" onclick="switchPdfConvTab('pdf2txt')" class="py-2 rounded-xl text-xs font-extrabold">PDF &rarr; Text</button>
+                        </div>
+
+                        <!-- Mode A: Images to PDF -->
+                        <div id="convPanelImg2Pdf" class="space-y-4">
+                            <input id="cImg2PdfFiles" type="file" accept="image/*" multiple class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
+                            <select id="cImg2PdfSize" class="w-full px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                <option value="a4">A4 Page Size</option>
+                                <option value="letter">Letter Page Size</option>
+                            </select>
+                            <button type="button" onclick="runImagesToPdf()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm">Convert Images to PDF</button>
+                        </div>
+
+                        <!-- Mode B: PDF to Images -->
+                        <div id="convPanelPdf2Img" class="hidden space-y-4">
+                            <div class="flex flex-col sm:flex-row gap-2">
+                                <input id="cPdf2ImgFile" type="file" accept="application/pdf" class="flex-1 text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
+                                <select id="cPdf2ImgFmt" class="px-3 py-2 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                    <option value="image/jpeg">JPG</option>
+                                    <option value="image/png">PNG</option>
+                                </select>
+                            </div>
+                            <button type="button" onclick="runPdfToImages()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm">Render PDF Pages to Images</button>
+                            <div id="cPdf2ImgResults" class="grid grid-cols-1 sm:grid-cols-2 gap-3"></div>
+                        </div>
+
+                        <!-- Mode C: Text to PDF -->
+                        <div id="convPanelTxt2Pdf" class="hidden space-y-4">
+                            <textarea id="cTxt2PdfInput" rows="7" placeholder="Paste or type your text here to create a clean formatted PDF..." class="w-full p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm focus:outline-none focus:border-indigo-500"></textarea>
+                            <button type="button" onclick="runTextToPdf()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm">Download Text as PDF</button>
+                        </div>
+
+                        <!-- Mode D: PDF to Text -->
+                        <div id="convPanelPdf2Txt" class="hidden space-y-4">
+                            <input id="cPdf2TxtFile" type="file" accept="application/pdf" onchange="runPdfToText(this)" class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
+                            <textarea id="cPdf2TxtOutput" rows="7" readonly placeholder="Extracted text will appear here..." class="w-full p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm"></textarea>
+                            <div class="flex gap-2">
+                                <button type="button" onclick="copyText(document.getElementById('cPdf2TxtOutput').value)" class="flex-1 py-2.5 rounded-xl bg-indigo-600 text-white font-extrabold text-xs">Copy All Text</button>
+                                <button type="button" onclick="downloadExtractedTxt()" class="flex-1 py-2.5 rounded-xl bg-emerald-600 text-white font-extrabold text-xs">Download .txt</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                switchPdfConvTab('img2pdf');
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 5: PDF MERGE & SPLIT (PRO)
+            // ---------------------------------------------------------------------
+            else if (id === 'pdf-merge') {
+                card.innerHTML = header + `
+                    <div class="space-y-6">
+                        <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-3">
+                            <h3 class="text-sm font-extrabold">1. Merge Multiple PDFs</h3>
+                            <input id="pdfMergeInput" type="file" accept="application/pdf" multiple class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
+                            <button type="button" onclick="runPdfMerge()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-extrabold">Merge &amp; Download PDF</button>
+                        </div>
+                        <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-3">
+                            <h3 class="text-sm font-extrabold">2. Split PDF Page Range</h3>
+                            <input id="pdfSplitInput" type="file" accept="application/pdf" class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-emerald-600 file:text-white file:font-bold" />
+                            <div class="grid grid-cols-2 gap-3">
+                                <input id="pdfSplitStart" type="number" min="1" value="1" placeholder="Start Page" class="px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                <input id="pdfSplitEnd" type="number" min="1" value="1" placeholder="End Page" class="px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                            </div>
+                            <button type="button" onclick="runPdfSplit()" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold">Split &amp; Download PDF</button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 6: PDF TO WORD
+            // ---------------------------------------------------------------------
+            else if (id === 'pdf-to-word') {
+                card.innerHTML = header + `
+                    <div class="space-y-4">
+                        <div id="p2wDropzone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 text-center cursor-pointer" onclick="document.getElementById('p2wInput').click()">
+                            <p class="text-sm font-bold">Drop PDF here or Tap to Choose File</p>
+                            <p class="text-xs text-slate-500 mt-1">Extracts text into an editable .doc file</p>
+                            <input id="p2wInput" type="file" accept="application/pdf" class="hidden" />
+                        </div>
+                        <div id="p2wStatus" class="text-xs font-semibold text-slate-500"></div>
+                    </div>
+                `;
+                setupDropzone('p2wDropzone', 'p2wInput', async files => {
+                    const file = files[0];
+                    const status = document.getElementById('p2wStatus');
+                    status.textContent = 'Extracting text from PDF...';
+                    try {
+                        ensurePdfWorker();
+                        const pdf = await pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+                        let fullText = '';
+                        for (let i = 1; i <= pdf.numPages; i++) {
+                            const page = await pdf.getPage(i);
+                            const content = await page.getTextContent();
+                            fullText += content.items.map(it => it.str).join(' ') + '\n\n';
+                        }
+                        if (!fullText.trim()) {
+                            status.innerHTML = '<span class="text-amber-600 font-bold">This appears to be a scanned/image-only PDF with no selectable text. OCR is required for scanned documents.</span>';
+                            return;
+                        }
+                        const htmlDoc = `<html><head><meta charset="utf-8"></head><body><pre style="font-family:Arial;white-space:pre-wrap;">${fullText.replace(/</g, '&lt;')}</pre></body></html>`;
+                        const url = URL.createObjectURL(new Blob([htmlDoc], { type: 'application/msword' }));
+                        status.innerHTML = `<a href="${url}" download="${file.name.replace(/\.pdf$/i, '')}.doc" class="inline-block px-5 py-2.5 rounded-xl bg-indigo-600 text-white font-bold">Download Word (.doc)</a>`;
+                        showToast('PDF converted to Word!');
+                    } catch {
+                        status.innerHTML = '<span class="text-rose-500 font-bold">Could not read PDF file.</span>';
+                    }
+                });
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 7: WORD TO PDF
+            // ---------------------------------------------------------------------
+            else if (id === 'word-to-pdf') {
+                card.innerHTML = header + `
+                    <div class="space-y-4">
+                        <input id="w2pFile" type="file" accept=".docx,.txt" onchange="loadDocxToTextarea(this)" class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
+                        <textarea id="w2pText" rows="7" placeholder="Upload a .docx/.txt file above OR type/paste your document text here..." class="w-full p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm focus:outline-none focus:border-indigo-500"></textarea>
+                        <div class="grid grid-cols-2 gap-3">
+                            <select id="w2pSize" class="px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                <option value="a4">A4 Page Size</option>
+                                <option value="letter">Letter Page Size</option>
+                            </select>
+                            <select id="w2pOrient" class="px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
+                                <option value="p">Portrait</option>
+                                <option value="l">Landscape</option>
+                            </select>
+                        </div>
+                        <button type="button" onclick="exportWordToPdf()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm">
+                            Export PDF ${pro ? '(Watermark-Free ★)' : '(Free)'}
+                        </button>
+                    </div>
+                `;
+            }
+
+            // ---------------------------------------------------------------------
+            // TOOL 8: IMAGE COMPRESSOR
+            // ---------------------------------------------------------------------
+            else if (id === 'img-compress') {
                 const maxMb = pro ? 100 : 5;
                 card.innerHTML = header + `
                     <div class="space-y-5">
@@ -1265,17 +1547,13 @@
                     const quality = parseInt(document.getElementById('imgQualSlider').value, 10) / 100;
 
                     list.forEach(file => {
-                        if (file.size > maxMb * 1024 * 1024) {
-                            showToast(`${file.name} exceeds ${maxMb}MB limit.`);
-                            return;
-                        }
+                        if (file.size > maxMb * 1024 * 1024) return showToast(`${file.name} exceeds ${maxMb}MB limit.`);
                         const reader = new FileReader();
                         reader.onload = ev => {
                             const img = new Image();
                             img.onload = () => {
                                 const canvas = document.createElement('canvas');
-                                canvas.width = img.width;
-                                canvas.height = img.height;
+                                canvas.width = img.width; canvas.height = img.height;
                                 canvas.getContext('2d').drawImage(img, 0, 0);
                                 canvas.toBlob(blob => {
                                     const url = URL.createObjectURL(blob);
@@ -1299,106 +1577,20 @@
                 });
             }
 
-            // TOOL 2: PDF MERGE & SPLIT (PRO)
-            else if (id === 'pdf-merge') {
-                card.innerHTML = header + `
-                    <div class="space-y-6">
-                        <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-3">
-                            <h3 class="text-sm font-extrabold">1. Merge Multiple PDFs</h3>
-                            <input id="pdfMergeInput" type="file" accept="application/pdf" multiple class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
-                            <button type="button" onclick="runPdfMerge()" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-extrabold">Merge &amp; Download PDF</button>
-                        </div>
-                        <div class="p-5 rounded-2xl bg-slate-50 dark:bg-slate-800/50 border border-slate-200 dark:border-slate-700 space-y-3">
-                            <h3 class="text-sm font-extrabold">2. Split PDF Page Range</h3>
-                            <input id="pdfSplitInput" type="file" accept="application/pdf" class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-emerald-600 file:text-white file:font-bold" />
-                            <div class="grid grid-cols-2 gap-3">
-                                <input id="pdfSplitStart" type="number" min="1" value="1" placeholder="Start Page" class="px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
-                                <input id="pdfSplitEnd" type="number" min="1" value="1" placeholder="End Page" class="px-3 py-2 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-xs font-bold">
-                            </div>
-                            <button type="button" onclick="runPdfSplit()" class="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-extrabold">Split &amp; Download PDF</button>
-                        </div>
-                    </div>
-                `;
-            }
-
-            // TOOL 3: PDF TO WORD
-            else if (id === 'pdf-to-word') {
-                card.innerHTML = header + `
-                    <div class="space-y-4">
-                        <div id="p2wDropzone" class="p-6 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 text-center cursor-pointer" onclick="document.getElementById('p2wInput').click()">
-                            <p class="text-sm font-bold">Drop PDF here or Tap to Choose File</p>
-                            <p class="text-xs text-slate-500 mt-1">Extracts text into an editable .doc file</p>
-                            <input id="p2wInput" type="file" accept="application/pdf" class="hidden" />
-                        </div>
-                        <div id="p2wStatus" class="text-xs font-semibold text-slate-500"></div>
-                    </div>
-                `;
-                setupDropzone('p2wDropzone', 'p2wInput', async files => {
-                    const file = files[0];
-                    const status = document.getElementById('p2wStatus');
-                    status.textContent = 'Extracting text from PDF...';
-                    try {
-                        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-                        const buf = await file.arrayBuffer();
-                        const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
-                        let fullText = '';
-                        for (let i = 1; i <= pdf.numPages; i++) {
-                            const page = await pdf.getPage(i);
-                            const content = await page.getTextContent();
-                            fullText += content.items.map(it => it.str).join(' ') + '\n\n';
-                        }
-                        if (!fullText.trim()) {
-                            status.innerHTML = '<span class="text-amber-600 font-bold">This appears to be a scanned/image-only PDF with no selectable text. OCR is required for scanned documents.</span>';
-                            return;
-                        }
-                        const htmlDoc = `<html><head><meta charset="utf-8"></head><body><pre style="font-family:Arial;white-space:pre-wrap;">${fullText.replace(/</g, '&lt;')}</pre></body></html>`;
-                        const blob = new Blob([htmlDoc], { type: 'application/msword' });
-                        const url = URL.createObjectURL(blob);
-                        status.innerHTML = `<a href="${url}" download="${file.name.replace(/\.pdf$/i, '')}.doc" class="inline-block px-5 py-2.5 rounded-xl bg-indigo-600 text-white font-bold">Download Word (.doc)</a>`;
-                        showToast('PDF converted to Word!');
-                    } catch (err) {
-                        status.innerHTML = '<span class="text-rose-500 font-bold">Could not read PDF file.</span>';
-                    }
-                });
-            }
-
-            // TOOL 4: WORD TO PDF
-            else if (id === 'word-to-pdf') {
-                card.innerHTML = header + `
-                    <div class="space-y-4">
-                        <input id="w2pFile" type="file" accept=".docx,.txt" onchange="loadDocxToTextarea(this)" class="block w-full text-xs file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:bg-indigo-600 file:text-white file:font-bold" />
-                        <textarea id="w2pText" rows="7" placeholder="Upload a .docx/.txt file above OR type/paste your document text here..." class="w-full p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm focus:outline-none focus:border-indigo-500"></textarea>
-                        <div class="grid grid-cols-2 gap-3">
-                            <select id="w2pSize" class="px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
-                                <option value="a4">A4 Page Size</option>
-                                <option value="letter">Letter Page Size</option>
-                            </select>
-                            <select id="w2pOrient" class="px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
-                                <option value="p">Portrait</option>
-                                <option value="l">Landscape</option>
-                            </select>
-                        </div>
-                        <button type="button" onclick="exportWordToPdf()" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold text-sm">
-                            Export PDF ${pro ? '(Watermark-Free ★)' : '(Free)'}
-                        </button>
-                    </div>
-                `;
-            }
-
-            // TOOL 5: QR CODE GENERATOR
+            // ---------------------------------------------------------------------
+            // TOOL 9: QR CODE GENERATOR
+            // ---------------------------------------------------------------------
             else if (id === 'qr-gen') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
                         <input id="qrText" type="text" placeholder="Enter URL, text, or UPI link..." value="https://toolboxpro.app" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm focus:outline-none focus:border-indigo-500">
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <select id="qrSize" class="px-3 py-2.5 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-xs font-bold">
-                                <option value="200">200 × 200 px</option>
-                                <option value="300" selected>300 × 300 px</option>
+                                <option value="150">150 × 150 px</option>
+                                <option value="250" selected>250 × 250 px</option>
                                 <option value="400">400 × 400 px</option>
                             </select>
-                            <div class="flex items-center gap-2">
-                                <input id="qrLogoFile" type="file" accept="image/*" ${pro ? '' : 'disabled'} class="block w-full text-xs ${pro ? '' : 'opacity-50'}" />
-                            </div>
+                            <input id="qrLogoFile" type="file" accept="image/*" ${pro ? '' : 'disabled'} class="block w-full text-xs ${pro ? '' : 'opacity-50'}" />
                         </div>
                         ${!pro ? '<p class="text-[11px] text-amber-600 font-semibold">Custom center logo overlay is a Pro feature ★</p>' : ''}
                         <div class="flex gap-2">
@@ -1414,7 +1606,9 @@
                 setTimeout(generateQR, 100);
             }
 
-            // TOOL 6: EMI CALCULATOR
+            // ---------------------------------------------------------------------
+            // TOOL 10: EMI CALCULATOR
+            // ---------------------------------------------------------------------
             else if (id === 'emi-calc') {
                 card.innerHTML = header + `
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
@@ -1451,7 +1645,9 @@
                 calcEMI();
             }
 
-            // TOOL 7: EXACT AGE CALCULATOR
+            // ---------------------------------------------------------------------
+            // TOOL 11: EXACT AGE CALCULATOR
+            // ---------------------------------------------------------------------
             else if (id === 'age-calc') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
@@ -1465,7 +1661,9 @@
                 calcAge();
             }
 
-            // TOOL 8: YOUTUBE THUMBNAIL DOWNLOADER
+            // ---------------------------------------------------------------------
+            // TOOL 12: YOUTUBE THUMBNAIL DOWNLOADER
+            // ---------------------------------------------------------------------
             else if (id === 'yt-thumb') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
@@ -1478,30 +1676,42 @@
                 `;
             }
 
-            // TOOL 9: WORD COUNTER
+            // ---------------------------------------------------------------------
+            // TOOL 13: WORD COUNTER
+            // ---------------------------------------------------------------------
             else if (id === 'word-count') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
                         <textarea id="wcInput" rows="7" oninput="calcWords()" placeholder="Type or paste your text here..." class="w-full p-4 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm focus:outline-none focus:border-indigo-500"></textarea>
-                        <div class="grid grid-cols-2 sm:grid-cols-5 gap-2.5 text-center">
+                        <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-center">
                             <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Words</div><div id="wcWords" class="text-lg font-black">0</div></div>
-                            <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Chars</div><div id="wcChars" class="text-lg font-black">0</div></div>
-                            <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">No Spaces</div><div id="wcNoSpace" class="text-lg font-black">0</div></div>
+                            <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Chars (Spaces)</div><div id="wcChars" class="text-lg font-black">0</div></div>
+                            <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Chars (No Spaces)</div><div id="wcNoSpace" class="text-lg font-black">0</div></div>
                             <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Sentences</div><div id="wcSent" class="text-lg font-black">0</div></div>
                             <div class="p-3 rounded-2xl bg-slate-50 dark:bg-slate-800"><div class="text-[10px] font-bold text-slate-400">Paragraphs</div><div id="wcPara" class="text-lg font-black">0</div></div>
+                            <div class="p-3 rounded-2xl bg-indigo-50 dark:bg-indigo-950/40"><div class="text-[10px] font-bold text-indigo-500">Reading Time</div><div id="wcRead" class="text-lg font-black text-indigo-600 dark:text-indigo-400">0 min</div></div>
                         </div>
-                        <button type="button" onclick="document.getElementById('wcInput').value=''; calcWords();" class="px-4 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-xs font-bold">Clear Text</button>
+                        <div class="flex gap-2">
+                            <button type="button" onclick="copyText(document.getElementById('wcInput').value)" class="px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-bold">Copy Text</button>
+                            <button type="button" onclick="document.getElementById('wcInput').value=''; calcWords();" class="px-4 py-2 rounded-xl bg-slate-200 dark:bg-slate-800 text-xs font-bold">Clear</button>
+                        </div>
                     </div>
                 `;
             }
 
-            // TOOL 10: STRONG PASSWORD GENERATOR
+            // ---------------------------------------------------------------------
+            // TOOL 14: STRONG PASSWORD GENERATOR
+            // ---------------------------------------------------------------------
             else if (id === 'pass-gen') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
                         <div class="flex gap-2">
                             <input id="pgOutput" type="text" readonly class="flex-1 px-4 py-3 rounded-xl bg-slate-100 dark:bg-slate-800 font-mono text-sm font-black tracking-wider">
                             <button type="button" onclick="copyText(document.getElementById('pgOutput').value)" class="px-4 py-2.5 rounded-xl bg-indigo-600 text-white text-xs font-extrabold">Copy</button>
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex justify-between text-[11px] font-bold"><span>Strength</span><span id="pgStrengthLabel">Strong</span></div>
+                            <div class="h-2 w-full rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden"><div id="pgStrengthBar" class="h-full bg-emerald-500 transition-all" style="width:80%"></div></div>
                         </div>
                         <div class="flex items-center gap-3">
                             <label class="text-xs font-bold">Length: <span id="pgLenVal">16</span></label>
@@ -1519,7 +1729,9 @@
                 generatePassword();
             }
 
-            // TOOL 11: BIDIRECTIONAL UNIT CONVERTER
+            // ---------------------------------------------------------------------
+            // TOOL 15: BIDIRECTIONAL UNIT CONVERTER
+            // ---------------------------------------------------------------------
             else if (id === 'unit-conv') {
                 card.innerHTML = header + `
                     <div class="space-y-4">
@@ -1527,6 +1739,8 @@
                             <option value="length">Length (m, km, cm, ft, in, mi)</option>
                             <option value="weight">Weight (kg, g, lb, oz)</option>
                             <option value="temp">Temperature (°C, °F, K)</option>
+                            <option value="area">Area (sq m, sq km, sq ft, acre, hectare)</option>
+                            <option value="data">Data Storage (B, KB, MB, GB, TB)</option>
                         </select>
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div class="space-y-2">
@@ -1544,20 +1758,466 @@
             }
         }
 
-        // ---- Tool Helper Functions ----
+        // =========================================================================
+        // 9. LOGIC FOR 4 NEW PDF TOOLS
+        // =========================================================================
+
+        // --- 1. COMPRESS PDF ---
+        async function runCompressPdf() {
+            const file = window._compPdfFile || document.getElementById('compPdfInput')?.files[0];
+            if (!file) return showToast('Please select a PDF file first.');
+            const lvl = document.querySelector('input[name="pdfCompLvl"]:checked')?.value || 'medium';
+            const presets = {
+                low:    { scale: 1.45, quality: 0.80 },
+                medium: { scale: 1.10, quality: 0.56 },
+                high:   { scale: 0.82, quality: 0.36 }
+            };
+            const { scale, quality } = presets[lvl];
+            const status = document.getElementById('compPdfStatus');
+            status.classList.remove('hidden');
+            status.innerHTML = `<div class="text-xs font-bold text-indigo-600">Compressing PDF pages... please wait.</div>`;
+
+            try {
+                ensurePdfWorker();
+                const pdf = await pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+                const outDoc = await PDFLib.PDFDocument.create();
+
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    status.innerHTML = `<div class="text-xs font-bold text-indigo-600">Optimizing page ${i} of ${pdf.numPages}...</div>`;
+                    const page = await pdf.getPage(i);
+                    const viewport = page.getViewport({ scale });
+                    const canvas = document.createElement('canvas');
+                    canvas.width = viewport.width;
+                    canvas.height = viewport.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    await page.render({ canvasContext: ctx, viewport }).promise;
+
+                    const jpgDataUrl = canvas.toDataURL('image/jpeg', quality);
+                    const jpgImage = await outDoc.embedJpg(jpgDataUrl);
+                    const origVp = page.getViewport({ scale: 1 });
+                    const newPage = outDoc.addPage([origVp.width, origVp.height]);
+                    newPage.drawImage(jpgImage, { x: 0, y: 0, width: origVp.width, height: origVp.height });
+                }
+
+                const outBytes = await outDoc.save({ useObjectStreams: true });
+                const blob = new Blob([outBytes], { type: 'application/pdf' });
+                const url = URL.createObjectURL(blob);
+                const savedPct = Math.round((1 - blob.size / file.size) * 100);
+
+                status.innerHTML = `
+                    <div class="grid grid-cols-3 gap-2 text-center">
+                        <div class="p-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700"><div class="text-[10px] text-slate-400">Original</div><div class="text-xs font-black">${formatBytes(file.size)}</div></div>
+                        <div class="p-2.5 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700"><div class="text-[10px] text-slate-400">Compressed</div><div class="text-xs font-black text-emerald-600">${formatBytes(blob.size)}</div></div>
+                        <div class="p-2.5 rounded-xl bg-emerald-50 dark:bg-emerald-950/40"><div class="text-[10px] text-emerald-600">Saved</div><div class="text-xs font-black text-emerald-700 dark:text-emerald-300">${savedPct > 0 ? savedPct + '%' : 'Optimized'}</div></div>
+                    </div>
+                    <a href="${url}" download="compressed-${file.name}" class="block w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-center font-extrabold text-xs">Download Compressed PDF</a>
+                `;
+                showToast('PDF compressed successfully!');
+            } catch (err) {
+                status.innerHTML = `<div class="text-xs font-bold text-rose-500">Compression failed: ${err.message}</div>`;
+            }
+        }
+
+        // --- 2. EDIT PDF ---
+        async function loadEditPdfFile(file) {
+            if (!file) return;
+            try {
+                ensurePdfWorker();
+                const bytes = new Uint8Array(await file.arrayBuffer());
+                const pdfDocJs = await pdfjsLib.getDocument({ data: bytes.slice() }).promise;
+                const pages = [];
+                for (let i = 0; i < pdfDocJs.numPages; i++) {
+                    pages.push({ origIndex: i, rotation: 0, deleted: false, annotations: [] });
+                }
+                editPdfState = { filename: file.name, bytes, pdfDocJs, pages, currentIdx: 0, watermark: '' };
+                document.getElementById('editPdfWorkspace').classList.remove('hidden');
+                renderEditPdfPreview();
+                showToast(`Loaded ${pdfDocJs.numPages} page(s) in Editor.`);
+            } catch {
+                showToast('Could not open PDF in Editor.');
+            }
+        }
+
+        function getActiveEditPages() {
+            return editPdfState ? editPdfState.pages.filter(p => !p.deleted) : [];
+        }
+
+        async function renderEditPdfPreview() {
+            const active = getActiveEditPages();
+            if (!active.length) return;
+            if (editPdfState.currentIdx >= active.length) editPdfState.currentIdx = active.length - 1;
+            if (editPdfState.currentIdx < 0) editPdfState.currentIdx = 0;
+
+            const pageMeta = active[editPdfState.currentIdx];
+            document.getElementById('editPageIndicator').textContent = `Page ${editPdfState.currentIdx + 1} of ${active.length}`;
+
+            const pdfPage = await editPdfState.pdfDocJs.getPage(pageMeta.origIndex + 1);
+            const vp = pdfPage.getViewport({ scale: 1.25, rotation: (pdfPage.rotate + pageMeta.rotation) % 360 });
+            const canvas = document.getElementById('editPdfCanvas');
+            canvas.width = vp.width;
+            canvas.height = vp.height;
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = '#ffffff';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            await pdfPage.render({ canvasContext: ctx, viewport: vp }).promise;
+
+            // Draw watermark preview
+            if (editPdfState.watermark) {
+                ctx.save();
+                ctx.translate(canvas.width / 2, canvas.height / 2);
+                ctx.rotate(-Math.PI / 4);
+                ctx.font = 'bold 42px Inter, sans-serif';
+                ctx.fillStyle = 'rgba(100, 116, 139, 0.25)';
+                ctx.textAlign = 'center';
+                ctx.fillText(editPdfState.watermark, 0, 0);
+                ctx.restore();
+            }
+
+            // Draw placed text annotations
+            pageMeta.annotations.forEach(ann => {
+                ctx.save();
+                ctx.font = `bold ${ann.size * 1.25}px Inter, sans-serif`;
+                ctx.fillStyle = ann.color;
+                ctx.fillText(ann.text, ann.xRatio * canvas.width, ann.yRatio * canvas.height);
+                ctx.restore();
+            });
+        }
+
+        function handleEditCanvasClick(e) {
+            if (!editPdfState) return;
+            const text = document.getElementById('editAnnText').value.trim();
+            if (!text) return showToast('Enter text above before tapping the page.');
+            const size = parseInt(document.getElementById('editAnnSize').value, 10) || 18;
+            const color = document.getElementById('editAnnColor').value || '#e11d48';
+
+            const canvas = document.getElementById('editPdfCanvas');
+            const rect = canvas.getBoundingClientRect();
+            const xRatio = (e.clientX - rect.left) / rect.width;
+            const yRatio = (e.clientY - rect.top) / rect.height;
+
+            const active = getActiveEditPages();
+            active[editPdfState.currentIdx].annotations.push({ text, size, color, xRatio, yRatio });
+            renderEditPdfPreview();
+        }
+
+        function updateEditWatermark(val) {
+            if (!editPdfState) return;
+            editPdfState.watermark = val.trim();
+            renderEditPdfPreview();
+        }
+
+        function editChangePage(delta) {
+            if (!editPdfState) return;
+            const active = getActiveEditPages();
+            const next = editPdfState.currentIdx + delta;
+            if (next >= 0 && next < active.length) {
+                editPdfState.currentIdx = next;
+                renderEditPdfPreview();
+            }
+        }
+
+        function editRotateCurrentPage() {
+            const active = getActiveEditPages();
+            if (!active.length) return;
+            active[editPdfState.currentIdx].rotation = (active[editPdfState.currentIdx].rotation + 90) % 360;
+            renderEditPdfPreview();
+        }
+
+        function editUndoAnnotation() {
+            const active = getActiveEditPages();
+            if (!active.length) return;
+            active[editPdfState.currentIdx].annotations.pop();
+            renderEditPdfPreview();
+        }
+
+        function editDeleteCurrentPage() {
+            const active = getActiveEditPages();
+            if (active.length <= 1) return showToast('Cannot delete the only remaining page.');
+            active[editPdfState.currentIdx].deleted = true;
+            renderEditPdfPreview();
+            showToast('Page removed from output.');
+        }
+
+        async function exportEditedPdf() {
+            if (!editPdfState) return;
+            try {
+                const srcDoc = await PDFLib.PDFDocument.load(editPdfState.bytes, { ignoreEncryption: true });
+                const outDoc = await PDFLib.PDFDocument.create();
+                const font = await outDoc.embedFont(PDFLib.StandardFonts.HelveticaBold);
+                const active = getActiveEditPages();
+
+                for (const meta of active) {
+                    const [copied] = await outDoc.copyPages(srcDoc, [meta.origIndex]);
+                    const currRot = copied.getRotation().angle || 0;
+                    if (meta.rotation) copied.setRotation(PDFLib.degrees((currRot + meta.rotation) % 360));
+                    outDoc.addPage(copied);
+
+                    const { width, height } = copied.getSize();
+                    if (editPdfState.watermark) {
+                        copied.drawText(editPdfState.watermark, {
+                            x: width * 0.18,
+                            y: height * 0.45,
+                            size: 38,
+                            font,
+                            color: PDFLib.rgb(0.45, 0.45, 0.5),
+                            opacity: 0.25,
+                            rotate: PDFLib.degrees(45)
+                        });
+                    }
+                    meta.annotations.forEach(ann => {
+                        const c = hexToRgb01(ann.color);
+                        copied.drawText(ann.text, {
+                            x: ann.xRatio * width,
+                            y: height - (ann.yRatio * height),
+                            size: ann.size,
+                            font,
+                            color: PDFLib.rgb(c.r, c.g, c.b)
+                        });
+                    });
+                }
+
+                const outBytes = await outDoc.save();
+                triggerBlobDownload(new Blob([outBytes], { type: 'application/pdf' }), 'edited-' + editPdfState.filename);
+                showToast('Edited PDF downloaded!');
+            } catch (err) {
+                showToast('Export error: ' + err.message);
+            }
+        }
+
+        // --- 3. REPAIR PDF ---
+        async function runRepairPdf(file) {
+            if (!file) return;
+            const logBox = document.getElementById('repairLogBox');
+            const resBox = document.getElementById('repairResultBox');
+            logBox.classList.remove('hidden');
+            resBox.classList.add('hidden');
+            logBox.innerHTML = '';
+
+            const addLog = msg => {
+                const line = document.createElement('div');
+                line.textContent = '> ' + msg;
+                logBox.appendChild(line);
+                logBox.scrollTop = logBox.scrollHeight;
+            };
+
+            addLog(`Loaded "${file.name}" (${formatBytes(file.size)})`);
+            const rawBytes = new Uint8Array(await file.arrayBuffer());
+            const headerStr = new TextDecoder().decode(rawBytes.slice(0, 8));
+            addLog(`Header signature check: ${headerStr.includes('%PDF') ? 'Valid %PDF header found' : 'Corrupted/missing %PDF header — attempting deep recovery'}`);
+
+            let repairedBytes = null;
+
+            // Stage 1: Structural Recovery via pdf-lib
+            try {
+                addLog('Stage 1: Attempting structural rebuild via pdf-lib (ignoreEncryption: true)...');
+                const src = await PDFLib.PDFDocument.load(rawBytes, { ignoreEncryption: true, throwOnInvalidObject: false });
+                const total = src.getPageCount();
+                addLog(`Detected ${total} page object(s). Rebuilding clean cross-reference table...`);
+                const fresh = await PDFLib.PDFDocument.create();
+                let recovered = 0;
+                for (let i = 0; i < total; i++) {
+                    try {
+                        const [p] = await fresh.copyPages(src, [i]);
+                        fresh.addPage(p);
+                        recovered++;
+                    } catch {
+                        addLog(`Warning: Skipped unreadable page #${i + 1}`);
+                    }
+                }
+                if (recovered > 0) {
+                    repairedBytes = await fresh.save({ useObjectStreams: false });
+                    addLog(`SUCCESS: Structurally recovered ${recovered}/${total} pages.`);
+                }
+            } catch (err) {
+                addLog(`Stage 1 structural parse failed: ${err.message}`);
+            }
+
+            // Stage 2: Visual Page Recovery Fallback via pdf.js
+            if (!repairedBytes) {
+                try {
+                    addLog('Stage 2: Falling back to pdf.js visual canvas page recovery...');
+                    ensurePdfWorker();
+                    const pdf = await pdfjsLib.getDocument({ data: rawBytes }).promise;
+                    const fresh = await PDFLib.PDFDocument.create();
+                    for (let i = 1; i <= pdf.numPages; i++) {
+                        addLog(`Recovering page ${i}/${pdf.numPages} via visual renderer...`);
+                        const page = await pdf.getPage(i);
+                        const vp = page.getViewport({ scale: 1.4 });
+                        const canvas = document.createElement('canvas');
+                        canvas.width = vp.width; canvas.height = vp.height;
+                        const ctx = canvas.getContext('2d');
+                        ctx.fillStyle = '#ffffff';
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                        await page.render({ canvasContext: ctx, viewport: vp }).promise;
+                        const img = await fresh.embedJpg(canvas.toDataURL('image/jpeg', 0.85));
+                        const orig = page.getViewport({ scale: 1 });
+                        const p = fresh.addPage([orig.width, orig.height]);
+                        p.drawImage(img, { x: 0, y: 0, width: orig.width, height: orig.height });
+                    }
+                    repairedBytes = await fresh.save();
+                    addLog(`SUCCESS: Visually rebuilt ${pdf.numPages} page(s) into a clean PDF.`);
+                } catch (err2) {
+                    addLog(`Stage 2 failed: ${err2.message}. File may be severely truncated or not a PDF.`);
+                }
+            }
+
+            resBox.classList.remove('hidden');
+            if (repairedBytes) {
+                const url = URL.createObjectURL(new Blob([repairedBytes], { type: 'application/pdf' }));
+                resBox.innerHTML = `<a href="${url}" download="repaired-${file.name}" class="block w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-center font-extrabold text-sm">Download Repaired PDF (${formatBytes(repairedBytes.length)})</a>`;
+                showToast('PDF repaired successfully!');
+            } else {
+                resBox.innerHTML = `<div class="p-3 rounded-xl bg-rose-50 dark:bg-rose-950/40 text-xs font-bold text-rose-600">Unable to recover this file. Ensure it is a valid PDF document.</div>`;
+            }
+        }
+
+        // --- 4. PDF CONVERTER (4 MODES) ---
+        function switchPdfConvTab(mode) {
+            const map = {
+                img2pdf: ['convTabImg2Pdf', 'convPanelImg2Pdf'],
+                pdf2img: ['convTabPdf2Img', 'convPanelPdf2Img'],
+                txt2pdf: ['convTabTxt2Pdf', 'convPanelTxt2Pdf'],
+                pdf2txt: ['convTabPdf2Txt', 'convPanelPdf2Txt']
+            };
+            Object.entries(map).forEach(([k, [tabId, panelId]]) => {
+                document.getElementById(tabId).className = k === mode
+                    ? 'py-2 rounded-xl text-xs font-extrabold bg-white dark:bg-slate-900 text-indigo-600 dark:text-indigo-400 shadow-sm'
+                    : 'py-2 rounded-xl text-xs font-extrabold text-slate-500 dark:text-slate-400';
+                document.getElementById(panelId).classList.toggle('hidden', k !== mode);
+            });
+        }
+
+        async function runImagesToPdf() {
+            const files = document.getElementById('cImg2PdfFiles').files;
+            if (!files.length) return showToast('Select at least one image.');
+            const size = document.getElementById('cImg2PdfSize').value;
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF({ orientation: 'p', unit: 'mm', format: size });
+            const pageW = doc.internal.pageSize.getWidth();
+            const pageH = doc.internal.pageSize.getHeight();
+
+            for (let i = 0; i < files.length; i++) {
+                if (i > 0) doc.addPage();
+                const dataUrl = await new Promise(res => {
+                    const r = new FileReader();
+                    r.onload = () => res(r.result);
+                    r.readAsDataURL(files[i]);
+                });
+                const img = await new Promise(res => {
+                    const im = new Image();
+                    im.onload = () => res(im);
+                    im.src = dataUrl;
+                });
+                const margin = 10;
+                const ratio = Math.min((pageW - margin * 2) / img.width, (pageH - margin * 2) / img.height);
+                const w = img.width * ratio;
+                const h = img.height * ratio;
+                doc.addImage(dataUrl, 'JPEG', (pageW - w) / 2, (pageH - h) / 2, w, h);
+            }
+            doc.save('images-to-pdf-toolbox.pdf');
+            showToast('PDF created from images!');
+        }
+
+        async function runPdfToImages() {
+            const file = document.getElementById('cPdf2ImgFile').files[0];
+            if (!file) return showToast('Select a PDF file first.');
+            const fmt = document.getElementById('cPdf2ImgFmt').value;
+            const ext = fmt === 'image/png' ? 'png' : 'jpg';
+            const out = document.getElementById('cPdf2ImgResults');
+            out.innerHTML = '<div class="col-span-full text-xs font-bold text-indigo-600">Rendering PDF pages...</div>';
+
+            try {
+                ensurePdfWorker();
+                const pdf = await pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+                out.innerHTML = '';
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    const page = await pdf.getPage(i);
+                    const vp = page.getViewport({ scale: 1.5 });
+                    const canvas = document.createElement('canvas');
+                    canvas.width = vp.width; canvas.height = vp.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.fillStyle = '#ffffff';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    await page.render({ canvasContext: ctx, viewport: vp }).promise;
+                    const dataUrl = canvas.toDataURL(fmt, 0.92);
+
+                    const card = document.createElement('div');
+                    card.className = 'p-3 rounded-2xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 space-y-2';
+                    card.innerHTML = `
+                        <img src="${dataUrl}" alt="Page ${i}" class="w-full rounded-xl border border-slate-200 dark:border-slate-700">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold">Page ${i}</span>
+                            <a href="${dataUrl}" download="page-${i}.${ext}" class="px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-[11px] font-bold">Download ${ext.toUpperCase()}</a>
+                        </div>
+                    `;
+                    out.appendChild(card);
+                }
+                showToast(`Rendered ${pdf.numPages} page(s)!`);
+            } catch {
+                out.innerHTML = '<div class="text-xs font-bold text-rose-500">Failed to render PDF.</div>';
+            }
+        }
+
+        function runTextToPdf() {
+            const text = document.getElementById('cTxt2PdfInput').value.trim();
+            if (!text) return showToast('Enter some text first.');
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF({ unit: 'mm', format: 'a4' });
+            const lines = doc.splitTextToSize(text, 180);
+            let y = 18;
+            doc.setFontSize(11);
+            lines.forEach(line => {
+                if (y > 280) { doc.addPage(); y = 18; }
+                doc.text(line, 15, y);
+                y += 6;
+            });
+            doc.save('text-to-pdf-toolbox.pdf');
+            showToast('Text converted to PDF!');
+        }
+
+        async function runPdfToText(input) {
+            const file = input.files[0];
+            if (!file) return;
+            const out = document.getElementById('cPdf2TxtOutput');
+            out.value = 'Extracting text...';
+            try {
+                ensurePdfWorker();
+                const pdf = await pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+                let text = '';
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    const page = await pdf.getPage(i);
+                    const content = await page.getTextContent();
+                    text += `--- Page ${i} ---\n` + content.items.map(it => it.str).join(' ') + '\n\n';
+                }
+                out.value = text.trim() || 'No selectable text found (may be a scanned PDF).';
+                showToast('Text extracted!');
+            } catch {
+                out.value = 'Error reading PDF file.';
+            }
+        }
+
+        function downloadExtractedTxt() {
+            const txt = document.getElementById('cPdf2TxtOutput').value.trim();
+            if (!txt) return showToast('No extracted text to download.');
+            triggerBlobDownload(new Blob([txt], { type: 'text/plain;charset=utf-8' }), 'extracted-text.txt');
+        }
+
+        // =========================================================================
+        // 10. EXISTING TOOLS HELPER FUNCTIONS
+        // =========================================================================
         async function runPdfMerge() {
             const files = document.getElementById('pdfMergeInput').files;
             if (files.length < 2) return showToast('Select at least 2 PDF files to merge.');
             try {
                 const merged = await PDFLib.PDFDocument.create();
                 for (const file of files) {
-                    const pdf = await PDFLib.PDFDocument.load(await file.arrayBuffer());
+                    const pdf = await PDFLib.PDFDocument.load(await file.arrayBuffer(), { ignoreEncryption: true });
                     const pages = await merged.copyPages(pdf, pdf.getPageIndices());
                     pages.forEach(p => merged.addPage(p));
                 }
-                const bytes = await merged.save();
-                const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
-                const a = document.createElement('a'); a.href = url; a.download = 'merged-toolbox-pro.pdf'; a.click();
+                triggerBlobDownload(new Blob([await merged.save()], { type: 'application/pdf' }), 'merged-toolbox-pro.pdf');
                 showToast('PDFs merged successfully!');
             } catch { showToast('Failed to merge PDFs.'); }
         }
@@ -1568,7 +2228,7 @@
             const start = parseInt(document.getElementById('pdfSplitStart').value, 10) - 1;
             const end = parseInt(document.getElementById('pdfSplitEnd').value, 10) - 1;
             try {
-                const src = await PDFLib.PDFDocument.load(await file.arrayBuffer());
+                const src = await PDFLib.PDFDocument.load(await file.arrayBuffer(), { ignoreEncryption: true });
                 const total = src.getPageCount();
                 if (start < 0 || end >= total || start > end) return showToast(`Valid page range is 1 to ${total}.`);
                 const out = await PDFLib.PDFDocument.create();
@@ -1576,9 +2236,7 @@
                 for (let i = start; i <= end; i++) indices.push(i);
                 const pages = await out.copyPages(src, indices);
                 pages.forEach(p => out.addPage(p));
-                const bytes = await out.save();
-                const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' }));
-                const a = document.createElement('a'); a.href = url; a.download = `split-pages-${start+1}-${end+1}.pdf`; a.click();
+                triggerBlobDownload(new Blob([await out.save()], { type: 'application/pdf' }), `split-pages-${start+1}-${end+1}.pdf`);
                 showToast('PDF split successfully!');
             } catch { showToast('Failed to split PDF.'); }
         }
@@ -1672,7 +2330,7 @@
             document.getElementById('emiOutput').innerHTML = `
                 <div class="p-2.5 rounded-xl bg-indigo-50 dark:bg-indigo-950/40"><div class="text-[10px] text-slate-500">Monthly EMI</div><div class="font-black text-indigo-600 dark:text-indigo-400">₹${Math.round(emi).toLocaleString('en-IN')}</div></div>
                 <div class="p-2.5 rounded-xl bg-amber-50 dark:bg-amber-950/40"><div class="text-[10px] text-slate-500">Total Interest</div><div class="font-black text-amber-600">₹${Math.round(totalInt).toLocaleString('en-IN')}</div></div>
-                <div class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800"><div class="text-[10px] text-slate-500">Total Amount</div><div class="font-black">₹${Math.round(totalPay).toLocaleString('en-IN')}</div></div>
+                <div class="p-2.5 rounded-xl bg-slate-100 dark:bg-slate-800"><div class="text-[10px] text-slate-500">Total Payment</div><div class="font-black">₹${Math.round(totalPay).toLocaleString('en-IN')}</div></div>
             `;
         }
 
@@ -1713,7 +2371,7 @@
             if (!match) return showToast('Enter a valid YouTube video URL.');
             const vid = match[1];
             const qualities = [
-                { label: 'Max HD (1280×720)', file: 'maxresdefault.jpg' },
+                { label: 'MaxRes HD (1280×720)', file: 'maxresdefault.jpg' },
                 { label: 'Standard HD (640×480)', file: 'sddefault.jpg' },
                 { label: 'High Quality (480×360)', file: 'hqdefault.jpg' },
                 { label: 'Medium (320×180)', file: 'mqdefault.jpg' }
@@ -1735,32 +2393,46 @@
         function calcWords() {
             const text = document.getElementById('wcInput').value;
             const trimmed = text.trim();
-            document.getElementById('wcWords').textContent = trimmed ? trimmed.split(/\s+/).length : 0;
+            const words = trimmed ? trimmed.split(/\s+/).length : 0;
+            document.getElementById('wcWords').textContent = words;
             document.getElementById('wcChars').textContent = text.length;
             document.getElementById('wcNoSpace').textContent = text.replace(/\s/g, '').length;
             document.getElementById('wcSent').textContent = trimmed ? trimmed.split(/[.!?]+/).filter(Boolean).length : 0;
             document.getElementById('wcPara').textContent = trimmed ? trimmed.split(/\n+/).filter(p => p.trim()).length : 0;
+            document.getElementById('wcRead').textContent = Math.max(words ? 1 : 0, Math.ceil(words / 200)) + ' min';
         }
 
         function generatePassword() {
             const len = parseInt(document.getElementById('pgLen').value, 10);
             let pool = '';
-            if (document.getElementById('pgUpper').checked) pool += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-            if (document.getElementById('pgLower').checked) pool += 'abcdefghijklmnopqrstuvwxyz';
-            if (document.getElementById('pgNum').checked) pool += '0123456789';
-            if (document.getElementById('pgSym').checked) pool += '!@#$%^&*()_+-=[]{}|;:,.<>?';
-            if (!pool) pool = 'abcdefghijklmnopqrstuvwxyz0123456789';
+            let types = 0;
+            if (document.getElementById('pgUpper').checked) { pool += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; types++; }
+            if (document.getElementById('pgLower').checked) { pool += 'abcdefghijklmnopqrstuvwxyz'; types++; }
+            if (document.getElementById('pgNum').checked)   { pool += '0123456789'; types++; }
+            if (document.getElementById('pgSym').checked)   { pool += '!@#$%^&*()_+-=[]{}|;:,.<>?'; types++; }
+            if (!pool) { pool = 'abcdefghijklmnopqrstuvwxyz0123456789'; types = 2; }
+
             const bytes = new Uint32Array(len);
             crypto.getRandomValues(bytes);
             let pass = '';
             for (let i = 0; i < len; i++) pass += pool[bytes[i] % pool.length];
             document.getElementById('pgOutput').value = pass;
+
+            const score = Math.min(100, (len >= 16 ? 50 : len * 3) + types * 13);
+            const bar = document.getElementById('pgStrengthBar');
+            const lbl = document.getElementById('pgStrengthLabel');
+            bar.style.width = score + '%';
+            if (score >= 80) { bar.className = 'h-full bg-emerald-500 transition-all'; lbl.textContent = 'Very Strong'; }
+            else if (score >= 55) { bar.className = 'h-full bg-amber-500 transition-all'; lbl.textContent = 'Medium'; }
+            else { bar.className = 'h-full bg-rose-500 transition-all'; lbl.textContent = 'Weak'; }
         }
 
         const UNIT_DATA = {
             length: { m: 1, km: 1000, cm: 0.01, ft: 0.3048, in: 0.0254, mi: 1609.34 },
             weight: { kg: 1, g: 0.001, lb: 0.453592, oz: 0.0283495 },
-            temp:   { C: 'C', F: 'F', K: 'K' }
+            temp:   { C: 'C', F: 'F', K: 'K' },
+            area:   { 'sq m': 1, 'sq km': 1e6, 'sq ft': 0.092903, acre: 4046.86, hectare: 10000 },
+            data:   { B: 1, KB: 1024, MB: 1048576, GB: 1073741824, TB: 1099511627776 }
         };
 
         function populateUnits() {
@@ -1789,14 +2461,14 @@
             } else {
                 res = (valIn * UNIT_DATA[cat][from]) / UNIT_DATA[cat][to];
             }
-            document.getElementById(source === 'A' ? 'ucValB' : 'ucValA').value = parseFloat(res.toFixed(4));
+            document.getElementById(source === 'A' ? 'ucValB' : 'ucValA').value = parseFloat(res.toFixed(6));
         }
 
         // ---- Info Modal ----
         function openInfoModal(type) {
             const content = {
-                about: ['About ToolBox Pro', 'ToolBox Pro provides 11 fast, browser-based utilities for PDF, Image, QR, Finance, and daily productivity. All files are processed locally on your device.'],
-                privacy: ['Privacy Policy', 'Your files never leave your device. Account and subscription preferences are stored locally in your browser via localStorage.'],
+                about: ['About ToolBox Pro', 'ToolBox Pro provides 15 fast, browser-based utilities for PDF, Image, Media, and daily productivity. All files are processed locally on your device.'],
+                privacy: ['Privacy Policy', 'Your files never leave your device. Account and subscription data are stored locally in your browser via localStorage.'],
                 terms: ['Terms of Use', 'ToolBox Pro is provided as-is for personal and professional productivity. Single-use Pro license keys are valid for one user account only.']
             };
             document.getElementById('modalTitle').textContent = content[type][0];
@@ -1806,7 +2478,7 @@
         function closeInfoModal() { document.getElementById('infoModal').classList.add('hidden'); }
 
         // =========================================================================
-        // 9. INITIALIZATION
+        // 11. INITIALIZATION
         // =========================================================================
         window.addEventListener('DOMContentLoaded', () => {
             initTheme();
